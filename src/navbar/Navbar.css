@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    flex-direction: row;
+    padding: 2rem;
+}
+.navbar >*{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 1.5rem;
+    color:#FFF;
+}
+.navbar >*:hover{
+    color:green;
+}

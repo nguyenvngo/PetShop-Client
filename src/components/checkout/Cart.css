@@ -1,0 +1,62 @@
+.title{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px 0;
+    width: 40%;
+    background-color: aquamarine;
+    margin: auto;
+    text-align: center;
+    
+}
+.dogs-item{
+    display: flex;
+}
+.dog-img{
+   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    margin-bottom: 20px;
+}
+.inf{
+    width: 140px;
+    font-size: 1.2rem;
+    line-height: 140px;
+}
+.total{
+    padding: 20px 0;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.button{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+.btns{
+    border: none;
+    height: 30px;
+    width: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:orangered;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns:hover{
+    background-color:lightskyblue;
+}

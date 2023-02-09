@@ -1,0 +1,97 @@
+.title{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.dog-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-top: 5rem;
+    scroll-behavior: smooth;
+    padding-bottom: 50px;
+}
+.dogs{
+    background-color: #d8e2dc;
+    display: grid;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 350px;
+    height: 450px;
+    margin-bottom: 1.5rem;
+    grid-template-areas: 
+    "img infor"
+    "desc desc"
+    "price price"
+    "btn btn"
+    ;
+}
+.dog-infor{
+    grid-area: infor;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+.imgs{
+    grid-area: img;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.desc{
+    grid-area: desc;
+    letter-spacing: normal;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+.price{
+    grid-area: price;
+   font-weight: bold;
+   font-size: 1rem;
+   
+}
+.btn-card{
+    grid-area: btn;
+    width: 80%;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+.btn-card:hover{
+    background-color: chartreuse;
+}
+.btn-added{
+    grid-area: btn;
+    background-color: gray;
+    width: 80%;
+    height: 2rem;
+    line-height: 2rem;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+.btn-added:hover{
+    background-color: chartreuse;
+}
