@@ -26,7 +26,7 @@ const Home = () => {
            <Slider {...settings}>
                 {arrimg.map((image) => {
                     return(
-                        <img key={image} src={image} alt="" width="100%" height="500px"/>
+                        <img className="img-slider" key={image} src={image} alt="" width="100%" />
                     )
                 })}
            </Slider>

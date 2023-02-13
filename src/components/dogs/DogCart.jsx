@@ -12,7 +12,6 @@ const DogCart = (props) => {
             name:name,
             price:price,
             image:imageUrl
-
         };
         addMyCart((item) => [...item,newItem]);
         setTotal((total) => total += Number(price));
